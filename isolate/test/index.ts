@@ -1,7 +1,7 @@
 import 'mocha';
 import * as assert from 'assert';
 import * as Rx from 'rxjs';
-import isolate from '../lib/cjs/index';
+import isolate from '../src/index';
 import * as sinon from 'sinon';
 
 describe('isolate', function() {
